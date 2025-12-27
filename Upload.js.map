@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../projects/plugin/src/app/upload.component.ts"],
-  "sourcesContent": ["import { Component, OnInit } from '@angular/core';\n\n@Component({\n    selector: 'plugin-upload',\n    template: `\n        <div class=\"task\">\n            <p>Upload</p>\n        </div>\n    `,\n    standalone: false\n})\n\nexport class UploadComponent implements OnInit {\n    constructor() { }\n\n    ngOnInit() { }\n}"],
-  "mappings": ";AAAA,SAAS,iBAAyB;;AAY5B,IAAO,kBAAP,MAAO,iBAAe;EACxB,cAAA;EAAgB;EAEhB,WAAQ;EAAK;;;uCAHJ,kBAAe;IAAA;EAAA;;4EAAf,kBAAe,WAAA,CAAA,CAAA,eAAA,CAAA,GAAA,YAAA,OAAA,OAAA,GAAA,MAAA,GAAA,QAAA,CAAA,CAAA,GAAA,MAAA,CAAA,GAAA,UAAA,SAAA,yBAAA,IAAA,KAAA;AAAA,UAAA,KAAA,GAAA;AAPpB,QAAA,4BAAA,GAAA,OAAA,CAAA,EAAkB,GAAA,GAAA;AACX,QAAA,oBAAA,GAAA,QAAA;AAAM,QAAA,0BAAA,EAAI;;;;;;gFAMZ,iBAAe,EAAA,WAAA,mBAAA,UAAA,+CAAA,YAAA,GAAA,CAAA;AAAA,GAAA;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../@aws-sdk/credential-provider-cognito-identity/dist-es/loadCognitoIdentity.js"],
-  "sourcesContent": ["import { CognitoIdentityClient, GetCredentialsForIdentityCommand, GetIdCommand, } from \"@aws-sdk/client-cognito-identity\";\nexport { CognitoIdentityClient, GetCredentialsForIdentityCommand, GetIdCommand };\n"],
-  "mappings": ";;;AAAA,SAAS,uBAAuB,kCAAkC,oBAAqB;",
-  "names": []
-}

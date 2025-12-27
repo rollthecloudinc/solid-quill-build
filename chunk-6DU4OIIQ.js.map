@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["<define:process>"],
-  "sourcesContent": ["{\"env\": {\"NODE_ENV\": \"development\"}}"],
-  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;",
-  "names": []
-}
