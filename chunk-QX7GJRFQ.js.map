@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../@smithy/core/dist-es/submodules/protocols/extended-encode-uri-component.js"],
+  "sourcesContent": ["export function extendedEncodeURIComponent(str) {\n    return encodeURIComponent(str).replace(/[!'()*]/g, function (c) {\n        return \"%\" + c.charCodeAt(0).toString(16).toUpperCase();\n    });\n}\n"],
+  "mappings": ";AAAO,SAAS,2BAA2B,KAAK;AAC5C,SAAO,mBAAmB,GAAG,EAAE,QAAQ,YAAY,SAAU,GAAG;AAC5D,WAAO,MAAM,EAAE,WAAW,CAAC,EAAE,SAAS,EAAE,EAAE,YAAY;AAAA,EAC1D,CAAC;AACL;",
+  "names": []
+}

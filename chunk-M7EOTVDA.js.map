@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../projects/plugin/src/app/download.component.ts"],
+  "sourcesContent": ["import { Component, OnInit } from '@angular/core';\nimport { ContentPluginManager } from '@rollthecloudinc/content';\n\n@Component({\n    selector: 'plugin-download',\n    template: `\n        <div class=\"task\">\n            <p>Download</p>\n        </div>\n    `,\n    standalone: false\n})\n\nexport class DownloadComponent implements OnInit {\n    constructor(\n        private cpm: ContentPluginManager\n    ) { \n        console.log('download component constructor');\n    }\n\n    ngOnInit() { }\n}"],
+  "mappings": ";AAAA,SAAS,iBAAyB;;;AAa5B,IAAO,oBAAP,MAAO,mBAAiB;EAC1B,YACY,KAAyB;AAAzB,SAAA,MAAA;AAER,YAAQ,IAAI,gCAAgC;EAChD;EAEA,WAAQ;EAAK;;;uCAPJ,oBAAiB,+BAAA,uBAAA,CAAA;IAAA;EAAA;;4EAAjB,oBAAiB,WAAA,CAAA,CAAA,iBAAA,CAAA,GAAA,YAAA,OAAA,OAAA,GAAA,MAAA,GAAA,QAAA,CAAA,CAAA,GAAA,MAAA,CAAA,GAAA,UAAA,SAAA,2BAAA,IAAA,KAAA;AAAA,UAAA,KAAA,GAAA;AAPtB,QAAA,4BAAA,GAAA,OAAA,CAAA,EAAkB,GAAA,GAAA;AACX,QAAA,oBAAA,GAAA,UAAA;AAAQ,QAAA,0BAAA,EAAI;;;;;;gFAMd,mBAAiB,EAAA,WAAA,qBAAA,UAAA,iDAAA,YAAA,GAAA,CAAA;AAAA,GAAA;",
+  "names": []
+}

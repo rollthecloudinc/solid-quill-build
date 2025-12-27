@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../@angular/material/fesm2022/ripple-module.mjs"],
+  "sourcesContent": ["import * as i0 from '@angular/core';\nimport { NgModule } from '@angular/core';\nimport { MatCommonModule } from './common-module.mjs';\nimport { MatRipple } from './ripple.mjs';\nclass MatRippleModule {\n  static \u0275fac = function MatRippleModule_Factory(__ngFactoryType__) {\n    return new (__ngFactoryType__ || MatRippleModule)();\n  };\n  static \u0275mod = /* @__PURE__ */i0.\u0275\u0275defineNgModule({\n    type: MatRippleModule\n  });\n  static \u0275inj = /* @__PURE__ */i0.\u0275\u0275defineInjector({\n    imports: [MatCommonModule, MatCommonModule]\n  });\n}\n(() => {\n  (typeof ngDevMode === \"undefined\" || ngDevMode) && i0.\u0275setClassMetadata(MatRippleModule, [{\n    type: NgModule,\n    args: [{\n      imports: [MatCommonModule, MatRipple],\n      exports: [MatRipple, MatCommonModule]\n    }]\n  }], null, null);\n})();\nexport { MatRippleModule };\n"],
+  "mappings": ";;;;;;;;AAAA,YAAY,QAAQ;AACpB,SAAS,gBAAgB;AAGzB,IAAM,kBAAN,MAAM,iBAAgB;AAAA,EACpB,OAAO,YAAO,SAAS,wBAAwB,mBAAmB;AAChE,WAAO,KAAK,qBAAqB,kBAAiB;AAAA,EACpD;AAAA,EACA,OAAO,YAAsB,gBAAG,8BAAiB;AAAA,IAC/C,MAAM;AAAA,EACR,CAAC;AAAA,EACD,OAAO,YAAsB,gBAAG,8BAAiB;AAAA,IAC/C,SAAS,CAAC,iBAAiB,eAAe;AAAA,EAC5C,CAAC;AACH;AAAA,CACC,MAAM;AACL,GAAC,OAAO,cAAc,eAAe,cAAiB,0BAAkB,iBAAiB,CAAC;AAAA,IACxF,MAAM;AAAA,IACN,MAAM,CAAC;AAAA,MACL,SAAS,CAAC,iBAAiB,SAAS;AAAA,MACpC,SAAS,CAAC,WAAW,eAAe;AAAA,IACtC,CAAC;AAAA,EACH,CAAC,GAAG,MAAM,IAAI;AAChB,GAAG;",
+  "names": []
+}
